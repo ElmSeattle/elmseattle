@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elm Seattle Users Group</title>
-  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.cyan-light_green.min.css" />
   <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.cyan-teal.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,700,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body class="mdl-typography--body-1">
   <div class="mdl-layout mdl-js-layout">
     <header class="mdl-layout__header">
       <div class="mdl-layout-icon"><img src="ElmSeattle32.png" alt="Elm logo"></div>
@@ -29,14 +29,11 @@
     </header>
     <main class="mdl-layout__content">
       <div class="elm-seattle-hero mdl-grid">
-        <div class="mdl-cell mdl-cell--1-col"></div>
         <div class="mdl-cell mdl-cell--10-col">
           <h1 class="hero-text">Home of the Elm language in Seattle</h1>
         </div>
-        <div class="mdl-cell mdl-cell--1-col"></div>
       </div>
       <div class="mdl-grid">
-        <div class="mdl-cell mdl-cell--1-col"></div>
         <div class="mdl-cell mdl-cell--3-col">
           <h3>
             <i class="material-icons">developer_mode</i>
@@ -44,7 +41,6 @@
           </h3>
           <p>Regular hack nights where you can hone your skills.</p>
         </div>
-        <div class="mdl-cell mdl-cell--1-col"></div>
         <div class="mdl-cell mdl-cell--3-col">
           <h3>
             <i class="material-icons">hearing</i>
@@ -52,48 +48,57 @@
           </h3>
           <p>Lectures from leaders and newcomers to the field.</p>
         </div>
-        <div class="mdl-cell mdl-cell--1-col"></div>
-        <div class="mdl-cell mdl-cell--2-col">
+        <div class="mdl-cell mdl-cell--3-col">
           <h3>
             <i class="material-icons">link</i>
             Connect
           </h3>
           <p>Meet other developers using the Elm language.</p>
         </div>
-        <div class="mdl-cell mdl-cell--1-col"></div>
+      </div>
 
-        <div class="mdl-cell mdl-cell--1-col"></div>
-        <div class="mdl-cell mdl-cell--10-col">
+      <div class="mdl-grid light-background">
+        <div class="mdl-cell mdl-cell--12-col">
           <h3>Stay informed</h3>
-          <p>Sign up for our announce-only email list to learn about the next meeting.</p>
+          <p><a href="http://eepurl.com/bzOknL">Sign up</a> for our announce-only email list to learn about the next meeting.</p>
+          <button onclick="location.href='http://eepurl.com/bzOknL'" class="mdl-button mdl-js-button mdl-button--raised mdl-button--primary mdl-js-ripple-effect">Subscribe</button>
         </div>
-        <div class="mdl-cell mdl-cell--1-col"></div>
+      </div>
 
-        <div class="mdl-cell mdl-cell--1-col"></div>
-        <div class="mdl-cell mdl-cell--10-col">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col">
           <a id="next-meeting"></a>
-          <h3>Next Meeting</h3>
+          <h3>Next Meeting: October TBD</h3>
           <p>The next meeting will be at
-             <a href="https://www.codefellows.org/locations/learn-to-code-in-seattle">Code Fellows Seattle</a>
-             in October. <a href="#">Google Map</a>
-
+             <a href="https://www.codefellows.org/locations/learn-to-code-in-seattle">Code Fellows</a>
+             in October.</p>
+          <p>
+            <a href="http://eepurl.com/bzOknL">Sign up</a> to be notfied when the date is finalized.
+          </p>
+          <p><a href="#">Google Map</a></p>
         </div>
-        <div class="mdl-cell mdl-cell--1-col"></div>
+      </div>
 
-        <div class="mdl-cell mdl-cell--1-col"></div>
-        <div class="mdl-cell mdl-cell--10-col">
+      <div class="mdl-grid light-background">
+        <div class="mdl-cell mdl-cell--12-col">
           <a id="chat"></a>
           <h3>Chat</h3>
-          <p>Connect one-one-one immediately.</p>
+          <p>Connect immediately to others in the community.</p>
           <ul>
             <li><a href="https://elmseattle.slack.com">Slack chat for Seattle</a></li>
             <li><a href="freenode">Main #elm chat on IRC</a></li>
           </ul>
         </div>
-        <div class="mdl-cell mdl-cell--1-col"></div>
-
       </div>
-
+      <footer class="elm-seattle-footer mdl-mini-footer">
+        <div class="mdl-mini-footer--left-section">
+          <ul class="mdl-mini-footer--link-list">
+            <li><a href="/conduct">Code of Conduct</a></li>
+            <li>Hosted by <a href="http://bitbucket.aerobatic.com">Aerobatic</a></li>
+            <li>&copy; Elm Seattle</li>
+          </ul>
+        </div>
+      </footer>
     </main>
   </div>
 </body>
