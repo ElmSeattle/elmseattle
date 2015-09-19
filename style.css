@@ -1,0 +1,9 @@
+.elm-seattle-hero {
+  background: url('seattle-skyline.jpg') center/cover ;
+  color: white;
+}
+.hero-text {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  margin-top: 3.5em;
+}
