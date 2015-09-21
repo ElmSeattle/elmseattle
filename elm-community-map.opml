@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opml version="1.0">
+    <head>
+        <title>Elm Seattle</title>
+        <ownerName></ownerName>
+    </head>
+    <body>
+        <outline text="Elm Seattle">
+            <outline text="Social Media">
+                <outline text="@seattleelm on Twitter"></outline>
+                <outline text="facebook.com/elmseattle"></outline>
+                <outline text="elmseattle.slack.com"></outline>
+            </outline>
+            <outline text="Code">
+                <outline text="github.com/elmseattle"></outline>
+                <outline text="https://bitbucket.org/elmseattle/"></outline>
+            </outline>
+            <outline text="ElmSeattle.org"></outline>
+            <outline text="infrastructure">
+                <outline text="EventBrite"></outline>
+                <outline text="MailChimp announce list"></outline>
+                <outline text="DNSMadeEasy"></outline>
+                <outline text="Enom"></outline>
+            </outline>
+            <outline text="Worldwide Elm community">
+                <outline text="reddit.com/r/elm"></outline>
+                <outline text="groups.google.com/group/elm-discuss"></outline>
+                <outline text="#elm on freenode IRC"></outline>
+            </outline>
+        </outline>
+    </body>
+</opml>
