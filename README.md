@@ -16,9 +16,13 @@ It should always have information about the next meeting, how to subscribe to th
 
 Until [Aerobatic](http://bitbucket.aerobatic.com) has a Github integration, the code will be hosted on Bitbucket. We are using Aerobatic because of the useful features of the [API Request Proxy](http://bitbucket.aerobatic.com/blog/aerobatic-express-request-proxy.html)
 
+## Community Map
+
+![community map](elm-community-map.png)
+The map [source in OPML](elm-community-map.opml)
+
 ## License
 [MIT](https://opensource.org/licenses/MIT)
 
 ## Code of Conduct
-This project adheres to the Open Code of Conduct. By participating, you are expected to honor this code.
-[code-of-conduct](http://todogroup.org/opencodeofconduct/#ElmSeattle)
+This project adheres to the Open Code of Conduct. By participating, you are expected to honor this [code of conduct](http://todogroup.org/opencodeofconduct/#ElmSeattle).
