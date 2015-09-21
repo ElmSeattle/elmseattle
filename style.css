@@ -7,8 +7,12 @@
   margin-bottom: 0;
 }
 
+.elm-seattle--bg-blue {
+  background-color: rgb(17, 132, 206);
+}
+
 .light-background {
-  background: linear-gradient(rgba(76,176,203,0.2), rgba(76,176,203,0.1), #fff, #fff);
+  background: linear-gradient(rgba(76,176,203,0.1), #fff);
 }
 
 .hero-text {
